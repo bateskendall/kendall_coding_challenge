@@ -2,7 +2,6 @@ source 'https://rubygems.org'
 
 gem 'rails',        '5.1.6'
 gem "octokit",      "~> 4.0"
-gem 'sqlite3'
 gem 'puma'
 gem 'sass-rails'
 gem 'uglifier'
