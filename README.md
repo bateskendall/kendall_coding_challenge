@@ -1,6 +1,6 @@
 # Coding Challenge
 
-App created for a coding challenge, built in Ruby on Rails. Accepts a username from user and returns corresponding GitHub profile information.
+App created for a coding challenge, built in Ruby on Rails. Accepts a username and returns corresponding GitHub profile information.
 
 ## Getting Started
 
