@@ -17,6 +17,9 @@ Migrate the database
 $ rails db:migrate
 ```
 
+[Create a GitHub OAuth application](https://github.com/settings/developers)
+Assign the client id and secret given to your app to the enivronment variables "GITHUB_ID" and "GITHUB_SECRET", respectively.
+
 Run app in local server
 
 ```
