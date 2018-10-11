@@ -1,6 +1,7 @@
 # Coding Challenge
 
 App created for a coding challenge, built in Ruby on Rails. Accepts a username and returns corresponding GitHub profile information.
+A working build of this app is available at [http://kendall-coding-challenge.herokuapp.com](http://kendall-coding-challenge.herokuapp.com).
 
 ## Getting Started
 
