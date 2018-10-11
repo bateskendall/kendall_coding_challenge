@@ -1,0 +1,41 @@
+<% unless @user.nil? %>
+  <p>
+    <strong>Name: </strong>
+    <% unless @user.name.nil? %>
+      <%= @user.name %>
+    <% else %>
+      unavailable
+    <% end %>
+  </p>
+  <p>
+    <strong>GitHub URL: </strong>
+    <a href='<%= @user.html_url %>'><%= @user.html_url %></a>
+  </p>
+  <p>
+    <strong>Email: </strong>
+    <% unless @user.email.nil? %>  
+      <%= @user.email %>
+    <% else %>
+      unavailable
+    <% end %>
+  </p>
+  <p>
+    <strong>Company: </strong>
+    <% unless @user.company.nil? %>
+      <%= @user.company %>
+    <% else %>
+      unavailable
+    <% end %>
+  </p>
+  <p>
+    <strong>Public repos: </strong>
+    <% unless @user.public_repos.nil? %>
+      <%= @user.public_repos %>
+    <% else %>
+      unavailable
+    <% end %>
+  </p>
+<% else %>
+  <h2>User not found.</h2>
+<% end %>
+<%= link_to 'back', root_url %>
