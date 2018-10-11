@@ -1,24 +1,29 @@
-# README
+# Coding Challenge
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+App created for a coding challenge, built in Ruby on Rails. Accepts a username from user and returns corresponding GitHub profile information.
 
-Things you may want to cover:
+## Getting Started
 
-* Ruby version
+Clone the repo and install gems
 
-* System dependencies
+```
+$ bundle install
+```
 
-* Configuration
+Migrate the database
 
-* Database creation
+```
+$ rails db:migrate
+```
 
-* Database initialization
+Run app in local server
 
-* How to run the test suite
+```
+$ rails s
+```
+## Built With
 
-* Services (job queues, cache servers, search engines, etc.)
+-[Ruby on Rails 5.1.6](https://rubyonrails.org/)
 
-* Deployment instructions
-
-* ...
+## Author
+-Kendall Bates
