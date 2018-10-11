@@ -23,7 +23,7 @@ $ rails s
 ```
 ## Built With
 
-- [Ruby on Rails 5.1.6](https://rubyonrails.org/)
+- [Ruby on Rails](https://rubyonrails.org/) 5.1.6
 
 ## Author
 - Kendall Bates
